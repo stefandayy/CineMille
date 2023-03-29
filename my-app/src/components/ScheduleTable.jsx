@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const ScheduleTable = ({ list }) => {
   return (
     <>
-      <h1 className="text-center py-5">Orari</h1>
+      <h1 className="text-center py-5">Programmazione</h1>
       <Container>
         <Table variant="dark" striped bordered size="sm" className="">
           <thead>
