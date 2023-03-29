@@ -1,0 +1,14 @@
+
+#home, #schedule, #movie{
+  background-color: #141414;
+  color: white;
+  min-height: 100vh;
+}
+
+#footer{
+  background-color: #0e0d0d;
+  color: white;
+  text-align: center;
+  min-height: 10vh;
+}
+
