@@ -7,7 +7,7 @@ const HomeListComponent = ({ list }) => {
   return (
     <>
       <Container className="d-flex justify-content-center py-3">
-        <Carousel className="my-3" style={{ width: "200px" }}>
+        <Carousel className="my-3" style={{ width: "220px" }}>
           {list.map((item) => (
             <Carousel.Item>
               <Link to={`/movie/${item.id}`}>
@@ -15,7 +15,7 @@ const HomeListComponent = ({ list }) => {
                   className="d-block w-100"
                   src={item.Poster}
                   alt="slide"
-                  style={{ height: "312px" }}
+                  style={{ height: "322px" }}
                 />
               </Link>
             </Carousel.Item>

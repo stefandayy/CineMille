@@ -5,7 +5,7 @@ const HomeAbout = () => {
   return (
     <Container>
       <h1 className="text-center">CineMille</h1>
-      <div className="text-center mx-5 py-5">
+      <div className=" py-5">
         <p >
           Benvenuti alla nostra multisala cinema da 12 sale! La nostra multisala
           cinema non si limita solo alla visione di film.
