@@ -11,7 +11,7 @@ const HeaderNavComponent = () => {
       <Navbar.Brand >CineMille</Navbar.Brand>
       <Nav className="me-auto">
         <NavLink to="/" className="nav-link">Home</NavLink>
-        <NavLink to="/schedule" className="nav-link" >Orari</NavLink>
+        <NavLink to="/schedule" className="nav-link" >Film</NavLink>
       </Nav>
     </Container>
   </Navbar>
