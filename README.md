@@ -1,6 +1,6 @@
 Lascaux Academy Challenge - FrontEnd Developer
 
-Questo è un sito che permette di vedere i film in programmazione di un cinema Multisala.
+Questo è un sito che permette di vedere i film in programmazione di un cinema multisala.
 Sono presenti due pagine: l'Homepage e la pagina della programmazione.
 Nell'homepage abbiamo un carosello che ci permette di accedere al dettaglio dei singoli film, anche nella pagina della programmazione abbiamo modo di fare la stella cosa clickando sui film della tabella.
 
