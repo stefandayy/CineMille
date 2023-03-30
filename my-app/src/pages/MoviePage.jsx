@@ -31,7 +31,7 @@ const MoviePage = () => {
                 </Card.Text>
                 <Card.Text>
                   {" "}
-                  <b>Actori: {movie.Actors} </b>
+                  <b>Attori: {movie.Actors} </b>
                 </Card.Text>
                 <Card.Text>
                   {" "}
