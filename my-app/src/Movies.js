@@ -1,6 +1,6 @@
 export const movies = [
   {
-    id:0,
+    id: 0,
     Title: "John Wick: Chapter 4",
     Year: "2023",
     Rated: "N/A",
@@ -27,11 +27,11 @@ export const movies = [
     Production: "Lionsgate",
     Website: "N/A",
     Response: "True",
-    Sale:[3,5,7,10,11],
-    Disponibile: "12 Maggio"
+    Sale: [3, 5, 7, 10, 11],
+    Disponibile: "12 Maggio",
   },
   {
-    id:1,
+    id: 1,
     Title: "Shazam! Fury of the Gods",
     Year: "2023",
     Rated: "PG-13",
@@ -61,11 +61,11 @@ export const movies = [
     Production: "Warner Bros. Pictures",
     Website: "N/A",
     Response: "True",
-    Sale:[1,5,7,8],
-    Disponibile: "1 Maggio"
+    Sale: [1, 5, 7, 8],
+    Disponibile: "1 Maggio",
   },
   {
-    id:2,
+    id: 2,
     Title: "The Whale",
     Year: "2022",
     Rated: "R",
@@ -96,8 +96,8 @@ export const movies = [
     Production: "A24",
     Website: "N/A",
     Response: "True",
-    Sale:[9,11,12],
-    Disponibile: "17 Aprile"
+    Sale: [9, 11, 12],
+    Disponibile: "17 Aprile",
   },
   {
     id: 3,
@@ -131,8 +131,8 @@ export const movies = [
     Production: "N/A",
     Website: "N/A",
     Response: "True",
-    Sale:[7,8,11],
-    Disponibile: "25 Giugno"
+    Sale: [7, 8, 11],
+    Disponibile: "25 Giugno",
   },
   {
     id: 4,
@@ -162,8 +162,8 @@ export const movies = [
     Production: "Paramount Pictures",
     Website: "N/A",
     Response: "True",
-    Sale:[3,5,7],
-    Disponibile: "12 Aprile"
+    Sale: [3, 5, 7],
+    Disponibile: "12 Aprile",
   },
   {
     id: 5,
@@ -197,7 +197,7 @@ export const movies = [
     Production: "N/A",
     Website: "N/A",
     Response: "True",
-    Sale:[1,2,10],
-    Disponibile: "30 Aprile"
+    Sale: [1, 2, 10],
+    Disponibile: "30 Aprile",
   },
 ];

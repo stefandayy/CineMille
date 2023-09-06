@@ -6,7 +6,7 @@ import SchedulePage from "./pages/SchedulePage";
 import MoviePage from "./pages/MoviePage";
 import FooterComponent from "./components/FooterComponent";
 import HeaderNavComponent from "./components/HeaderNavComponent";
-
+import { Review } from "./pages/Review";
 
 const list = movies;
 
@@ -15,13 +15,14 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <HeaderNavComponent/>
+        <HeaderNavComponent />
         <Routes>
-          <Route path="/" element={<HomePage list={list} />} />
-          <Route path="/schedule" element={<SchedulePage list={list} />} />
-          <Route path="/movie/:id"element={<MoviePage/>}/>
+          <Route path='/' element={<HomePage list={list} />} />
+          <Route path='/schedule' element={<SchedulePage list={list} />} />
+          <Route path='/movie/:id' element={<MoviePage />} />
+          <Route path='/review/:id' element={<Review />} />
         </Routes>
-        <FooterComponent/>
+        <FooterComponent />
       </BrowserRouter>
     </>
   );

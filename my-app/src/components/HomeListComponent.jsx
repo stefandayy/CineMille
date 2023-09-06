@@ -18,7 +18,7 @@ const HomeListComponent = ({ list }) => {
                   style={{ height: "322px" }}
                 />
               </Link>
-            </Carousel.Item>
+            </Carousel.Item> 
           ))}
         </Carousel>
       </Container>

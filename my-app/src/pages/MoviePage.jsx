@@ -9,21 +9,20 @@ const MoviePage = () => {
     return <div>Movie not found</div>;
   }
   return (
-    <div id="movie">
-      
-      <Container className="py-5" >
-        <Card bg="dark">
+    <div id='movie'>
+      <Container className='py-5'>
+        <Card bg='dark'>
           <Row sm={1} md={1} lg={2}>
-            <Col className="text-center">
+            <Col className='text-center'>
               <Card.Img
-                variant="top"
+                variant='top'
                 src={movie.Poster}
                 style={{ width: "230px" }}
-                className="m-3"
+                className='m-3'
               />
             </Col>{" "}
             <Col>
-              <Card.Body className="my-5">
+              <Card.Body className='my-5'>
                 <Card.Title>{movie.Title}</Card.Title>
                 <Card.Text>
                   {" "}
@@ -41,6 +40,9 @@ const MoviePage = () => {
                   <b>Year: {movie.Year} </b>
                 </Card.Text>
                 <Card.Text>{movie.Plot}</Card.Text>
+                <Card.Text>
+                  <b>Sale: {movie.Sale.join(", ")}</b>
+                </Card.Text>
               </Card.Body>
             </Col>
           </Row>
