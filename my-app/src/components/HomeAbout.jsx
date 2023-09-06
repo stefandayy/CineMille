@@ -4,11 +4,11 @@ import Container from "react-bootstrap/esm/Container";
 const HomeAbout = () => {
   return (
     <Container>
-      <h1 className="text-center">CineMille</h1>
-      <div className=" py-5">
-        <p >
+      <h1 className='text-center'>CineMille</h1>
+      <div className=' py-5'>
+        <p>
           Benvenuti alla nostra multisala cinema da 12 sale! La nostra multisala
-          cinema non si limita solo alla visione di film.
+          cinema non si limita solo alla visione di film!
         </p>
 
         <p>
@@ -34,7 +34,8 @@ const HomeAbout = () => {
         </p>
 
         <p>
-          Vieni a trovarci al <b>via Roma a Firenze (FI).</b> , dove la magia del cinema prende vita.
+          Vieni a trovarci al <b>via Roma a Firenze (FI).</b> , dove la magia
+          del cinema prende vita.
         </p>
       </div>
     </Container>
