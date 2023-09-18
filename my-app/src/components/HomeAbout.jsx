@@ -8,7 +8,7 @@ const HomeAbout = () => {
       <div className=' py-5'>
         <p>
           Benvenuti alla nostra multisala cinema da 12 sale! La nostra multisala
-          cinema non si limita solo alla visione di film!!
+          cinema non si limita solo alla visione di film!!!!
         </p>
 
         <p>
